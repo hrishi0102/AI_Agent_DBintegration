@@ -1,4 +1,3 @@
-import { timestamp } from "drizzle-orm/mysql-core";
 import { integer, pgTable, text, timestamp } from "drizzle-orm/pg-core";
 
 export const todosTable = pgTable("todos", {

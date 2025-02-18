@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "generate": "drizzle-kit generate",
     "migrate": "drizzle-kit migrate",
@@ -17,6 +18,7 @@
     "drizzle-kit": "^0.30.4",
     "drizzle-orm": "^0.39.3",
     "openai": "^4.85.1",
-    "pg": "^8.13.3"
+    "pg": "^8.13.3",
+    "readline-sync": "^1.4.10"
   }
 }
