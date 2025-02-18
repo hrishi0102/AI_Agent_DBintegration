@@ -1,6 +1,7 @@
 import { db } from "./db/index.js";
 import { todosTable } from "./db/schema.js";
 import { ilike } from "drizzle-orm";
+import OpenAI from "openai";
 
 async function getAllTodos() {
   const todos = await db.select().from(todosTable);
